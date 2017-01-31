@@ -1,0 +1,58 @@
+@CHARSET "ISO-8859-1";
+html {
+	margin: 0;
+	padding: 0;
+}
+body { 
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #000000; 
+	margin: 0; 
+	padding: 0;
+}
+a:link { 
+	text-decoration: none; 
+	color: #000000;
+}
+a:visited { 
+	text-decoration: none; 
+	color: #000000;
+}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #cccccc;
+}
+input, textarea {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+table.withoutBorder {
+	width:100%;
+	border:0px;
+	border-collapse: collapse;
+}
+table.withoutBorder th, table.withoutBorder td{
+	border:0px solid black;
+}
+table.withBorder {
+	width:100%;
+	border:1px;
+	border-collapse: collapse;
+}
+table.withBorder th, table.withBorder td{
+	border:1px solid black;
+}
+table .alignLeft {
+	text-align: left;
+}
+table .alignRight {
+	text-align: right;
+}
+table .alignCentre {
+	text-align: center;
+}
+td.contentsTd {
+	height: 460px;
+	vertical-align: top;
+}
